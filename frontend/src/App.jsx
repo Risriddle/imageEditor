@@ -1,12 +1,12 @@
 import React from 'react'
-import UploadImage from './components/UploadImage'
-import Options from './components/Options'
+
+import ImageEditor from './components/ImageEditor'
 
 const App = () => {
   return (
     <>
-    {/* <div><UploadImage/></div> */}
-    <div><Options/></div>
+   
+    <div><ImageEditor/></div>
     </>
   )
 }
